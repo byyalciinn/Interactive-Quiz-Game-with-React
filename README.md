@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# React Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bu proje, React kullanarak geliştirilmiş bir **Quiz Uygulaması**dır. Kullanıcılar, soruları cevaplayarak puan kazanır ve sonunda sonuçlarını görürler.
 
-## Available Scripts
+## Özellikler
 
-In the project directory, you can run:
+- Kullanıcılar, sorulara cevap vererek puan kazanır.
+- Quiz bitiminde, kullanıcıya doğru cevap sayısı gösterilir.
+- Uygulama, React ile geliştirilmiştir ve temel etkileşimleri içerir.
+- Kullanıcı dostu arayüz ve dinamik bir deneyim sunar.
 
-### `npm start`
+## Teknolojiler
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: Kullanıcı arayüzü için.
+- **JavaScript**: Uygulamanın mantığını oluşturmak için.
+- **CSS**: Uygulamanın stilini oluşturmak için.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Başlangıç
 
-### `npm test`
+Projenizi yerel bilgisayarınızda çalıştırmak için aşağıdaki adımları izleyebilirsiniz.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Gereksinimler
 
-### `npm run build`
+- Node.js ve npm yüklü olmalıdır.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Kurulum
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Bu projeyi bilgisayarınıza klonlayın:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/your-username/react-quiz-app.git
+   ```
 
-### `npm run eject`
+2. Proje dizinine gidin:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   ```bash
+   cd react-quiz-app
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Gerekli bağımlılıkları yükleyin:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   ```bash
+   npm install
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Uygulamayı başlatın:
 
-## Learn More
+   ```bash
+   npm start
+   ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   Bu komut, uygulamanızı yerel olarak çalıştıracaktır. Tarayıcınızda `http://localhost:3000` adresine giderek uygulamayı görebilirsiniz.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Kullanım
 
-### Code Splitting
+- Uygulama açıldığında, kullanıcıya bir soru gösterilir.
+- Sorulara seçenekler aracılığıyla cevap verilebilir.
+- Quiz tamamlandığında kullanıcı doğru cevap sayısını görür.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Katkıda Bulunma
 
-### Analyzing the Bundle Size
+Eğer bu projeye katkıda bulunmak isterseniz, aşağıdaki adımları izleyebilirsiniz:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Bu repository'yi fork'layın.
+2. Yeni bir branch oluşturun (`git checkout -b feature/your-feature`).
+3. Değişikliklerinizi yapın ve commit'leyin (`git commit -am 'Add new feature'`).
+4. Değişikliklerinizi GitHub'a push'layın (`git push origin feature/your-feature`).
+5. Pull request oluşturun.
 
-### Making a Progressive Web App
+## Lisans
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
